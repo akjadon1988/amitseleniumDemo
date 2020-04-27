@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-04-26T20:27:38 PDT" name="Loan" finished-at="2020-04-26T20:27:39 PDT" duration-ms="212">
+    <groups>
+    </groups>
+    <test started-at="2020-04-26T20:27:38 PDT" name="Personal loan" finished-at="2020-04-26T20:27:39 PDT" duration-ms="92">
+      <class name="testNG.test1">
+        <test-method signature="Demo()[pri:0, instance:testNG.test1@2de23121]" started-at="2020-04-26T20:27:39 PDT" name="Demo" finished-at="2020-04-26T20:27:39 PDT" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method signature="second()[pri:0, instance:testNG.test1@2de23121]" started-at="2020-04-26T20:27:39 PDT" name="second" finished-at="2020-04-26T20:27:39 PDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- second -->
+      </class> <!-- testNG.test1 -->
+      <class name="testNG.test2">
+        <test-method signature="second()[pri:0, instance:testNG.test2@63475ace]" started-at="2020-04-26T20:27:39 PDT" name="second" finished-at="2020-04-26T20:27:39 PDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- second -->
+      </class> <!-- testNG.test2 -->
+    </test> <!-- Personal loan -->
+    <test started-at="2020-04-26T20:27:39 PDT" name="Car loan" finished-at="2020-04-26T20:27:39 PDT" duration-ms="12">
+      <class name="testNG.test3">
+        <test-method signature="ApiLoginCarLoan()[pri:0, instance:testNG.test3@10aa41f2]" started-at="2020-04-26T20:27:39 PDT" name="ApiLoginCarLoan" finished-at="2020-04-26T20:27:39 PDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApiLoginCarLoan -->
+        <test-method signature="MobileLoginCarLoan()[pri:0, instance:testNG.test3@10aa41f2]" started-at="2020-04-26T20:27:39 PDT" name="MobileLoginCarLoan" finished-at="2020-04-26T20:27:39 PDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginCarLoan -->
+        <test-method signature="WebloginCarLoan()[pri:0, instance:testNG.test3@10aa41f2]" started-at="2020-04-26T20:27:39 PDT" name="WebloginCarLoan" finished-at="2020-04-26T20:27:39 PDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebloginCarLoan -->
+      </class> <!-- testNG.test3 -->
+    </test> <!-- Car loan -->
+  </suite> <!-- Loan -->
+</testng-results>
